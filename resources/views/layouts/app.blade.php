@@ -1,7 +1,9 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
-    <meta charset="utf-8">
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+ <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- CSRF Token -->
@@ -9,9 +11,8 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
-    <!-- Fonts -->
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <meta name="author" content="surfside media" />
         <link rel="shortcut icon" href="{{ asset('assets/images/favicon.ico') }}" type="image/x-icon">
         <link rel="preconnect" href="https://fonts.gstatic.com/">
@@ -26,11 +27,8 @@
         integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
         @stack('styles')
-
-    <!-- Scripts -->
-    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-</head>
-    
+        
+        
 <body class="gradient-bg">
   <svg class="d-none">
     <symbol id="icon_nav" viewBox="0 0 25 18">
@@ -270,7 +268,7 @@
     <div class="container d-flex align-items-center h-100">
       <a class="mobile-nav-activator d-block position-relative" href="#">
         <svg class="nav-icon" width="25" height="18" viewBox="0 0 25 18" xmlns="http://www.w3.org/2000/svg">
-          <use href="#icon_nav" />
+          <use href="#icon_na" />
         </svg>
         <button class="btn-close-lg position-absolute top-0 start-0 w-100"></button>
       </a>
